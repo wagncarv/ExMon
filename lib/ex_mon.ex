@@ -40,13 +40,10 @@ defmodule ExMon do
       move -> Actions.attack(move)
     end
   end
-
-
-  defp do_move(move) do
-
-  end
 end
 
 # player = ExMon.create_player("Wagner", :chute, :soco, :cura)
+# player = ExMon.create_player("Wagner", :chute, :soco, :cura)
 # ExMon.start_game(player)
+# ExMon.Game.player
 
